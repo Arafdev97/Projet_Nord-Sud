@@ -1,0 +1,16 @@
+.input-field {
+    @apply w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400 transition;
+  }
+  
+  .error-text {
+    @apply text-red-500 text-sm mt-1;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 font-bold shadow-lg;
+  }
+  
+  .btn-whatsapp {
+    @apply bg-green-500 text-white px-6 py-3 rounded-xl hover:bg-green-600 font-bold shadow-lg;
+  }
+  
